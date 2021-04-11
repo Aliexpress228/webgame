@@ -1,0 +1,41 @@
+<style>
+    .cont{
+        
+    }
+    canvas {
+        background: black;
+        width:100%;
+        height:100%;
+    }
+    body{
+        margin:0px;
+        padding:0px;
+    }
+    button{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    #dtext{
+        background:red;
+    }
+</style>
+
+
+
+<div class = "cont">
+    <button id = "mode"><b>Переключить направление</b></button>
+    <button id = "speedup"><b>Скорость + </b></button>
+    <button id = "speeddown"><b>Скорость - </b></button>
+    <button id = "widthup"><b>Толщина + </b></button>
+    <button id = "widthdown"><b>Толщина - </b></button>
+    <button id = "sizeup"><b> Точка + </b></button>
+    <button id = "sizedown"><b>Точка - </b></button>
+    <br>
+    <b id = "dtext">Enter Number of dots: </b><input id="inputn" type="number" value="10"><button id="OK" >OK
+    </div>
+<canvas id="myCanvas" width="480" height="320"></canvas>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+
+
